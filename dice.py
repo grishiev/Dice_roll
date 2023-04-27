@@ -4,7 +4,7 @@ dice1 = 0
 dice2 = 0
 
 while True:
-	answer = input("Would you likke to through the dice? Y for 'yes', N for 'no': ")
+	answer = input("Would you like to throw the dice? Y for 'yes', N for 'no': ")
 	if answer == "y" or answer == "Y":
 		dice1 = random.randrange(1, 7, 1)
 		dice2 = random.randrange(1, 7, 1)
